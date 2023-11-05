@@ -8,13 +8,14 @@ import {
   IoHeart,
   IoMoon,
 } from "react-icons/io5";
+import { HiOutlineBookOpen } from "react-icons/hi";
 
 import { Typography } from "@material-tailwind/react";
 
 const departements = [
   {
     id: 1,
-    logo: IoBook,
+    logo: HiOutlineBookOpen,
     nom: `Département de l'évangélisation`,
     desc: "Le département s’occupe de l’évangélisation à tous les niveaux.",
   },
@@ -28,13 +29,13 @@ const departements = [
     id: 3,
     logo: IoFilterCircleSharp,
     nom: `Département de pèche`,
-    desc: "Le département de l’exploitation des cours d’eau et de la formation de la population au respect des normes de pèche.",
+    desc: "Le département s’occupe de l’exploitation des cours d’eau et de la formation de la population au respect des normes de pèche.",
   },
   {
     id: 4,
     logo: IoCrop,
     nom: `Département de l’élevage`,
-    desc: "Le département du gros et du petit bétail, de la valais, de la pisciculture et l’apiculture.",
+    desc: "Le département s’occupe du gros et du petit bétail, de la valaille, de la pisciculture et l’apiculture.",
   },
   {
     id: 5,
@@ -66,13 +67,13 @@ function OuTravaillonsNous() {
               variant="h2"
               className=" text-3xl md:text-4xl -mt-1 md:mb-1.5"
             >
-              Ou travaillons – nous ?
+              Où travaillons – nous ?
             </Typography>
             <div className="flex items-center justify-center">
               <div className=" bg-blue-700 h-1 w-12 rounded-full"></div>
             </div>
             <p className="my-3 md:text-lg">
-              Avec votre soutien, nous apportons un changement spirituel, morale
+              Avec votre soutien, nous apportons un changement spirituel, morale, intellectuel
               et physique de l’être tout entier à travers les différents
               départements :
             </p>

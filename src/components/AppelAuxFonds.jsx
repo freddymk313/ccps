@@ -12,8 +12,8 @@ function AppelAuxFonds() {
           Appel aux fonds
         </Typography>
         <p className="mt-2 md:text-lg">
-          Le financement de l’organisme provienne des cotisations ponctuelles et
-          spéciales des initiateurs et membres; des offrandes, dans et legs des
+          Le financement de l’organisme provient des cotisations ponctuelles et
+          spéciales des initiateurs et membres; des offrandes, dons et legs des
           initiateurs et membres; dons divers en nature ou en espèce des
           organisations gouvernementales, des organismes philanthropiques, des
           sociétés, des églises…; dons divers des partenaires et bienfaiteurs.

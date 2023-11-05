@@ -56,7 +56,7 @@ export default function FooterWithLogo() {
         <div className="flex items-center justify-center gap-x-1 md:gap-x-3 mt-1 mb-4">
           <Typography
             as="a"
-            href="#"
+            href="https://www.facebook.com/profile.php?id=61552800551476"
             className="opacity-80 transition-opacity hover:opacity-100"
           >
             <BiLogoFacebookCircle className="h-5 w-5" />

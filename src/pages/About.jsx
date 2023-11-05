@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Typography } from "@material-tailwind/react";
-import ongImg from "./../assets/images/IMG-20231014-WA0009.jpg";
+import ongImg from "./../assets/images/IMG-20231101-WA0035.jpg";
 
 function About() {
   return (
@@ -22,8 +22,8 @@ function About() {
               <p className="mt-3 md:text-lg">
                 Le Centre Chrétien de la Promotion Sociale(CCPS) est une
                 organisation sans but lucratif exerçant ses activités dans les
-                domaines de l’évangélisation de l’agriculture, pèche, élevage,
-                éducation, sante et de l’intendance.
+                domaines de l’évangélisation, de l’agriculture, pèche, élevage,
+                éducation, santé et de l’intendance.
               </p>
             </div>
           </section>
@@ -35,7 +35,8 @@ function About() {
           <img
             src={ongImg}
             alt="ong image"
-            className=" rounded-md object-cover"
+            className=" rounded-md 
+                    max-h-[600px] w-full object-cover"
           />
         </div>
         <div className="lg:w-[50%]">
@@ -52,20 +53,20 @@ function About() {
             <div className=" text-center lg:text-justify">
               <p className="mt-3 md:text-lg">
                 De nos jours, un constat amère révèle que plusieurs personnes
-                vivent encore sous l’empire du diable et la misère dans la
-                mesure ou l’évangile passe outre et que les gens ne prennent pas
+                vivent encore sous l’emprise du diable et la misère dans la
+                mesure où l’évangile passe outre et que les gens ne prennent pas
                 l’initiative d’aller vers elles, en témoignant christ, le
-                rédempteur, mort, enseveli et ressuscite le 3éme jour selon les
-                écritures, la seule et unique solution de Dieu au pèche auquel
-                l’humanité entière est confrontée (Romain 3:23, Romain 5:8, 1
-                Corinthiens 15: 3-6). Pourtant ces âmes bien entendues, ont soif
-                de l’évangile et de la connaissance parfaite de Jésus-Christ, le
-                chemin qui mène l’homme au salut (Jean 10 :10). Dans le souci de
-                répondre à l’ordre suprême du seigneur consigner en (Mathieu 28
-                : 19-20). Une organisation dénommée «Centre Chrétien de la
-                Promotion Sociale en sigle CCEPS », a vu le jour, le 02/05/2000
-                à Lubumbashi après plusieurs années d’expériences dans le
-                service du seigneur.
+                rédempteur, mort, enseveli et ressuscité le troisième jour selon
+                les écritures, la seule et unique solution de Dieu au péché
+                auquel l’humanité entière est confrontée (Romains 3:23, Romains
+                5:8, 1 Corinthiens 15: 3-6). Pourtant, ces âmes bien entendues,
+                ont soif de l’évangile et de la connaissance parfaite de
+                Jésus-Christ, le chemin qui mène l’homme au salut (Jean 10 :10).
+                Dans le souci de répondre à l’ordre suprême du seigneur consigné
+                en Mathieu 28 : 19-20, une organisation dénommée «Centre
+                Chrétien de la Promotion Sociale en sigle CCPS », a vu le jour,
+                le 02/05/2000 à Lubumbashi après plusieurs années d’expériences
+                dans le service du seigneur.
               </p>
               {/* sous titre */}
             </div>
@@ -88,15 +89,47 @@ function About() {
                   <div className=" bg-blue-700 h-1 w-12 rounded-full"></div>
                 </div>
                 <p className="mt-3 md:text-lg">
-                  Le Centre Chrétien de la Promotion Sociale(CCPS) est une
-                  organisation sans but lucratif exerçant ses activités dans les
-                  domaines de l’évangélisation de l’agriculture, pèche, élevage,
-                  éducation, sante et de l’intendance.
+                  Le Centre Chrétien de la Promotion Sociale(CCPS) réalise ses
+                  activités :
+                  <br />
+                  Pour la promotion de l'évangélisation,
+                  <br />
+                  Pour la réhabilitation, la revalorisation, la réintégration de
+                  toute personne en situation difficile en faisant d'elle un
+                  être à part entier, une âme sauvée, utile qui se prend
+                  elle-même en charge et participe activement au développement
+                  et à l'histoire du monde.
                 </p>
               </div>
             </section>
           </section>
         </div>
+      </section>
+
+      <section className=" text-gray-900">
+        <Typography
+          variant="h4"
+          className=" text-xl md:text-2xl -mt-1 md:mb-1.5 text-center"
+        >
+          Notre identité chrétienne
+        </Typography>
+        <p className="mt-3 md:text-lg">
+          Le Centre Chrétien de la Promotion Sociale(CCPS) est une organisation
+          chrétienne de l'expansion de l'évangile à travers le monde.
+        </p>
+      </section>
+
+      <section className=" text-gray-900">
+        <Typography
+          variant="h4"
+          className=" text-xl md:text-2xl -mt-1 md:mb-1.5 text-center"
+        >
+          L'équipe de direction
+        </Typography>
+        <p className="mt-3 md:text-lg">
+          Elle est composée du président, du vice-président, du secrétaire
+          général, tresoriere et les conseillers.
+        </p>
       </section>
     </div>
   );
