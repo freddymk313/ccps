@@ -106,7 +106,7 @@ function About() {
         </div>
       </section>
 
-      <section className=" text-gray-900">
+      <section className=" text-gray-900 px-4 md:px-20 py-6 lg:w-[80%]">
         <Typography
           variant="h4"
           className=" text-xl md:text-2xl -mt-1 md:mb-1.5 text-center"
@@ -119,7 +119,7 @@ function About() {
         </p>
       </section>
 
-      <section className=" text-gray-900">
+      <section className=" text-gray-900 px-4 md:px-20 py-6 lg:w-[80%]">
         <Typography
           variant="h4"
           className=" text-xl md:text-2xl -mt-1 md:mb-1.5 text-center"

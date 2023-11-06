@@ -1,6 +1,6 @@
 import { Typography } from "@material-tailwind/react";
 import ccpsLogo from "./../assets/images/ccpslogo.png";
-
+import { Link } from "react-router-dom";
 import {
   BiLogoFacebookCircle,
   BiLogoInstagram,
@@ -34,11 +34,10 @@ export default function FooterWithLogo() {
               <li key={item.id}>
                 <Typography
                   as="a"
-                  href={item.Lien}
                   color="blue-gray"
                   className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
                 >
-                  {item.text}
+                  <Link to={item.Lien}>{item.text}</Link>
                 </Typography>
               </li>
             ))}

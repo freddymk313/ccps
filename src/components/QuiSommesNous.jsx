@@ -25,14 +25,26 @@ function QuiSommesNous() {
               <span className=" font-semibold">
                 Le Centre Chrétien de la Promotion Sociale
               </span>{" "}
-              est une organisation sans but lucratif exerçant ses activités dans
-              les domaines de
+              est une organisation sans but lucratif, interconfessionnelle et
+              apolitique exerçant ses activités dans les domaines de
               <span className=" font-semibold hover:underline cursor-pointer">
                 {" "}
-                l’évangélisation de l’agriculture, pèche, élevage, éducation,
-                sante et de l’intendance
+                l’évangélisation, de l’agriculture, pèche, élevage, éducation,
+                santé et de l’intendance.
               </span>
-              .
+              <br />
+              <span>
+                Elle a pour devise,{" "}
+                <span className="font-semibold">
+                  servir le genre humain et pourvoir aux besoins des peuples
+                </span>
+              </span>
+              <br />
+              <span>
+                Notre appui touche tous les aspects de l'homme crée à l'image de
+                Dieu dans sa totalité : spirituel, intellectuel, moral,
+                matériel, physique,...
+              </span>
             </p>
             {/* sous titre */}
           </div>
@@ -74,8 +86,8 @@ function QuiSommesNous() {
               <br />
               <span>
                 Notre appui touche tous les aspects de l'homme crée à l'image de
-                Dieu dans sa totalité : spirituel, intellectuel, moral, matériel,
-                physique,...
+                Dieu dans sa totalité : spirituel, intellectuel, moral,
+                matériel, physique,...
               </span>
             </p>
             {/* sous titre */}
